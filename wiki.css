@@ -21,6 +21,10 @@ img {
     margin: 0 10px 10px 0;
 }
 
+.header-image {
+    width: 100%;
+}
+
 a, a:visited {
     text-decoration: none;
     font-weight: bold;
