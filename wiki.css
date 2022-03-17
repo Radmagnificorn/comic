@@ -10,6 +10,17 @@ body {
     margin: 0 auto;
 }
 
+.wrapper::after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
+#header {
+    padding: 20px 20px 0 20px;
+}
+
 img {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
@@ -19,9 +30,16 @@ img {
     width: 25%;
     float: left;
     margin: 0 10px 10px 0;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #555555;
 }
 
 .header-image {
+    width: 100%;
+}
+
+.banner-image {
     width: 100%;
 }
 
@@ -34,6 +52,8 @@ a, a:visited {
 .home-link {
     float: right;
 }
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
