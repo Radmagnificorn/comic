@@ -9,5 +9,5 @@ document.body.insertAdjacentHTML("beforeend", `
 `);
 
 function getRootPath() {
-    return window.location.href.endsWith('index.html') ? '' : '../'
+    return window.location.href.endsWith('index.html') ? './' : '../'
 }
