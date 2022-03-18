@@ -4,9 +4,12 @@ document.body.insertAdjacentHTML("afterbegin", `
         <img src='${getRootPath()}banner.png' class='banner-image'/>
     </div>
 `);
+
+/*
 document.body.insertAdjacentHTML("beforeend", `
     <div id='footer' class='wrapper'>Footer</div>
 `);
+*/
 
 function getRootPath() {
     let href = window.location.href;
