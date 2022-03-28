@@ -1,7 +1,7 @@
 
 document.body.insertAdjacentHTML("afterbegin", `
     <div id='header' class='wrapper'>
-        <img src='${getRootPath()}bannerlong.png' class='banner-image'/>
+        <img src='${getRootPath()}banner.png' class='banner-image'/>
     </div>
 `);
 
