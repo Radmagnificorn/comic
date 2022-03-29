@@ -48,6 +48,10 @@ img {
     background-color: var(--neutral-bg-color);
 }
 
+.gallery-image {
+    width: 30%;
+}
+
 .profile-pic {
     width: 25%;
     float: left;
